@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb50e296-c752-4fa9-97ab-21b7cddd6127" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MainPractice/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MainPractice/.idea/MainPractice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MainPractice/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MainPractice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MainPractice/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MainPractice/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MainPractice/p.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MainPractice/pra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MainPractice/practise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/Abstraction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/AccessSpecifiers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/Daemon_NonDaemonThreads.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/Encapsulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/Function_to_variable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/HigherOrderFunctions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/Inheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/ListComprehensions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/MapFilterReduce.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/MethodChaining.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/Methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/MultiProcessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/MultiThreading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/Polymorphism.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/Super.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/TimeModule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/WalrusOperator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/classobjects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/constructors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/lambda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPS/sortedsort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cg_python/assesment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cg_python/assesment2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cg_python/assesment3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cg_python/cg_practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cg_python/practicefile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_Hacker_Rank/python_hackerrank" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/2DLists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/Dictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/DictionaryComprehensions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/ExceptionHandling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/FileHandling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/Functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/Lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/LoopingStatements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/MathFunctions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/My_pic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/My_pic.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/Mypic.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/NestedFunctionCalls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/Random.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/Scope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/Sets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/Tuple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/TypeCasting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/args.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/conditionalstatements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/helloworld.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/keywordarguments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/kwargs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/logicaloperators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/loopcontrolstatements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/modules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/patterns1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/patterns2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/relationaloperators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/stringslicing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/user_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../syllabus/zip.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2vA7eitxGkZt1pwkLDyKBOUTE2W" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.CustomerAgeValidation&amp;DiscountCalculation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.EmployeeSalary_AdjustmentSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Student_Grades_Tracker.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fantasy_battle_arena.executor&quot;: &quot;Run&quot;,
+    &quot;Python.freq_of_num.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.max_min_matrix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.merging_two_dictionaries.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.randomdice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.student_grades_tracker.executor&quot;: &quot;Run&quot;,
+    &quot;Python.word_count.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Python/Revature&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Revature" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb50e296-c752-4fa9-97ab-21b7cddd6127" name="Changes" comment="" />
+      <created>1743576121762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743576121762</updated>
+    </task>
+    <servers />
+  </component>
+</project>
