@@ -40,6 +40,19 @@
       <change afterPath="$PROJECT_DIR$/../OOPS/constructors.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../OOPS/lambda.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../OOPS/sortedsort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Revature.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rev-3/Analyzing_Student_Grades.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rev-3/Banking_System.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rev-3/Basketball_Performance_Analyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rev-3/Chai_Shop_Inventory_Management_System.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rev-3/DataProcessing_withExceptionHandling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rev-3/Employee_Salary_Insights.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rev-3/Extract_Hashtags_from_Tweet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rev-3/Extract_Valid_Email_Addresses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rev-3/Financial_Analyst's_Dilemma.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rev-3/Robust_Calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rev-3/Space_Mission_Resource_Allocation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rev-3/Validate_Strong_Password.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cg_python/assesment.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cg_python/assesment2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cg_python/assesment3.py" afterDir="false" />
@@ -80,6 +93,7 @@
       <change afterPath="$PROJECT_DIR$/../syllabus/stringslicing.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../syllabus/user_input.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../syllabus/zip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,26 +118,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.CustomerAgeValidation&amp;DiscountCalculation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.EmployeeSalary_AdjustmentSystem.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Student_Grades_Tracker.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fantasy_battle_arena.executor&quot;: &quot;Run&quot;,
-    &quot;Python.freq_of_num.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.max_min_matrix.executor&quot;: &quot;Run&quot;,
-    &quot;Python.merging_two_dictionaries.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practice1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.randomdice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.student_grades_tracker.executor&quot;: &quot;Run&quot;,
-    &quot;Python.word_count.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Python/Revature&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Banking_System.executor": "Run",
+    "Python.Basketball_Performance_Analyzer.executor": "Run",
+    "Python.Chai_Shop_Inventory_Management_System.executor": "Run",
+    "Python.CustomerAgeValidation&DiscountCalculation.executor": "Run",
+    "Python.DataProcessing_withExceptionHandling.executor": "Run",
+    "Python.EmployeeSalary_AdjustmentSystem.executor": "Run",
+    "Python.Extract_Hashtags_from_Tweet.executor": "Run",
+    "Python.Extract_Valid_Email_Addresses.executor": "Run",
+    "Python.Financial_Analyst's_Dilemma.executor": "Run",
+    "Python.Robust_Calculator.executor": "Run",
+    "Python.Space_Mission_Resource_Allocation.executor": "Run",
+    "Python.Student_Grades_Tracker.executor": "Run",
+    "Python.Validate_Strong_Password.executor": "Run",
+    "Python.fantasy_battle_arena.executor": "Run",
+    "Python.freq_of_num.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.max_min_matrix.executor": "Run",
+    "Python.merging_two_dictionaries.executor": "Run",
+    "Python.practice1.executor": "Run",
+    "Python.randomdice.executor": "Run",
+    "Python.student_grades_tracker.executor": "Run",
+    "Python.word_count.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Python/Revature",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Revature" />
