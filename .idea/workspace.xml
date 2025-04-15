@@ -40,19 +40,11 @@
       <change afterPath="$PROJECT_DIR$/../OOPS/constructors.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../OOPS/lambda.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../OOPS/sortedsort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Revature.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rev-3/Analyzing_Student_Grades.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rev-3/Banking_System.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rev-3/Basketball_Performance_Analyzer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rev-3/Chai_Shop_Inventory_Management_System.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rev-3/DataProcessing_withExceptionHandling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rev-3/Employee_Salary_Insights.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rev-3/Extract_Hashtags_from_Tweet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rev-3/Extract_Valid_Email_Addresses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rev-3/Financial_Analyst's_Dilemma.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rev-3/Robust_Calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rev-3/Space_Mission_Resource_Allocation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rev-3/Validate_Strong_Password.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rev-4/Extract_Hashtags_from_Tweet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rev-4/Extract_Valid_Email_Addresses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rev-4/Submarine_Nuclear_Warhead_Launch_System.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rev-4/Validate_Strong_Password.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rev-4/authorization.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cg_python/assesment.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cg_python/assesment2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cg_python/assesment3.py" afterDir="false" />
@@ -94,6 +86,7 @@
       <change afterPath="$PROJECT_DIR$/../syllabus/user_input.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../syllabus/zip.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rev-2/EmployeeSalary_AdjustmentSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/rev-2/EmployeeSalary_AdjustmentSystem.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +125,7 @@
     "Python.Robust_Calculator.executor": "Run",
     "Python.Space_Mission_Resource_Allocation.executor": "Run",
     "Python.Student_Grades_Tracker.executor": "Run",
+    "Python.Submarine_Nuclear_Warhead_Launch_System.executor": "Run",
     "Python.Validate_Strong_Password.executor": "Run",
     "Python.fantasy_battle_arena.executor": "Run",
     "Python.freq_of_num.executor": "Run",
