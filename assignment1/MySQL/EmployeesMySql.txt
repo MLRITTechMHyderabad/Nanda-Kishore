@@ -1,0 +1,42 @@
+-- Create tables
+CREATE TABLE employees(emp_id INT, emp_name VARCHAR(50), dept_id INT, salary INT, hire_date DATE);
+CREATE TABLE departments(dept_id INT, dept_name VARCHAR(50), location VARCHAR(50));
+CREATE TABLE projects(project_id INT, emp_id INT, project_name VARCHAR(100), start_date DATE);
+
+-- Insert data into employees
+INSERT INTO employees VALUES (1, 'Alice', 10, 60000, '2020-01-15'), 
+                             (2, 'Bob', 20, 75000, '2019-03-10'), 
+                             (3, 'Charlie', 10, 55000, '2021-06-20'), 
+                             (4, 'Dave', 20, 80000, '2018-09-05'), 
+                             (5, 'Eve', 30, 50000, '2022-02-10');
+
+-- Insert data into departments
+INSERT INTO departments VALUES (10, 'HR', 'New York'), 
+                               (20, 'IT', 'Boston'), 
+                               (30, 'Finance', 'Chicago');
+
+-- Insert data into projects
+INSERT INTO projects VALUES (101, 1, 'Project A', '2023-01-01'), 
+                            (102, 2, 'Project B', '2023-02-15'), 
+                            (103, 1, 'Project C', '2023-03-10'), 
+                            (104, 3, 'Project D', '2023-04-01');
+
+ 1: Find Employees Earning More Than Their Department’s Average Salary
+-> select emp_id, emp_name from employees e 
+   where salary > (select avg(salary) from employees where dept_id = e.dept_id);
+
+ 2: Find Employees Who Worked on All Projects in Their Department
+-> select emp_id from projects p 
+   group by emp_id 
+   having count(*) = (select count(*) from projects);
+
+ 3: Find the Highest-Paid Employee in Each Department Who Started After 2020
+-> select emp_id, emp_name, dept_id, salary from employees e 
+   where hire_date > '2020-01-01' 
+   and (dept_id, salary) in 
+   (select dept_id, max(salary) from employees where hire_date > '2020-01-01' group by dept_id);
+
+ 4: Find Departments Where All Employees Earn Above a Certain Threshold
+-> select dept_id from employees 
+   group by dept_id 
+   having min(salary) > 60000;

@@ -1,0 +1,51 @@
+-- Create tables
+CREATE TABLE orders(order_id INT, customer_id INT, order_date DATE, total_amount DECIMAL(10,2));
+CREATE TABLE customers(customer_id INT, customer_name VARCHAR(50), region VARCHAR(50));
+CREATE TABLE order_details(detail_id INT, order_id INT, product_id INT, quantity INT, unit_price DECIMAL(10,2));
+CREATE TABLE products(product_id INT, product_name VARCHAR(50), category VARCHAR(50));
+
+-- Insert data
+INSERT INTO orders VALUES (1, 101, '2023-01-10', 500.00), (2, 102, '2023-02-15', 300.00), (3, 101, '2023-03-01', 700.00), (4, 103, '2023-04-20', 450.00), (5, 102, '2023-05-10', 200.00);
+INSERT INTO customers VALUES (101, 'Alice', 'East'), (102, 'Bob', 'West'), (103, 'Charlie', 'North'), (104, 'Dave', 'South');
+INSERT INTO order_details VALUES (1, 1, 201, 2, 200.00), (2, 1, 202, 1, 100.00), (3, 2, 203, 3, 100.00), (4, 3, 201, 1, 700.00), (5, 4, 202, 2, 225.00);
+INSERT INTO products VALUES (201, 'Laptop', 'Electronics'), (202, 'Mouse', 'Accessories'), (203, 'Headphones', 'Accessories');
+
+ 1: Find Customers Whose Total Order Amount Exceeds the Average Order Amount in Their Region
+-> select customer_id, customer_name from customers c 
+   join orders o on c.customer_id = o.customer_id 
+   group by c.customer_id, customer_name, region 
+   having sum(o.total_amount) > (
+       select avg(total_amount) from orders o2 
+       join customers c2 on o2.customer_id = c2.customer_id 
+       where c2.region = c.region
+   );
+
+ 2: Find Orders Containing Products from All Categories
+-> select o.order_id from orders o 
+   join order_details od on o.order_id = od.order_id 
+   join products p on od.product_id = p.product_id 
+   group by o.order_id 
+   having count(distinct p.category) = (select count(distinct category) from products);
+
+ 3: Find the Most Expensive Product Ordered by Each Customer After a Specific Date
+-> select c.customer_id, c.customer_name, p.product_name, max(od.unit_price) as max_price 
+   from customers c 
+   join orders o on c.customer_id = o.customer_id 
+   join order_details od on o.order_id = od.order_id 
+   join products p on od.product_id = p.product_id 
+   where o.order_date > '2023-02-01' 
+   group by c.customer_id, c.customer_name, p.product_name 
+   having max_price = (
+       select max(od2.unit_price) 
+       from orders o2 
+       join order_details od2 on o2.order_id = od2.order_id 
+       where o2.customer_id = c.customer_id and o2.order_date > '2023-02-01'
+   );
+
+ 4: Find Regions Where No Customer Ordered a Specific Product
+-> select distinct c.region from customers c 
+   where not exists (
+       select 1 from orders o 
+       join order_details od on o.order_id = od.order_id 
+       where o.customer_id = c.customer_id and od.product_id = 203
+   );

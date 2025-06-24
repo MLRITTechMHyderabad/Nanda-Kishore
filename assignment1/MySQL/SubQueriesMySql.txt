@@ -1,0 +1,35 @@
+| emp_id  | name  | department | salary | manager_id  |
+| ------- | ----- | ---------- | ------ | ----------- |
+| 1       | Alice | HR         | 60000  | NULL        |
+| 2       | Bob   | IT         | 75000  | 5           |
+| 3       | Carol | IT         | 72000  | 5           |
+| 4       | Dave  | Sales      | 55000  | 6           |
+| 5       | Eve   | IT         | 95000  | NULL        |
+| 6       | Frank | Sales      | 90000  | NULL        |
+| 7       | Grace | HR         | 62000  | 1           |
+
+Find employees who earn more than the average salary
+-> select emp_id, name from employees where salary > (select avg(salary) from employees);
+
+List employees who work in the same department as 'Bob'
+-> select emp_id, name, department from employees where department = (select department from employees where name = 'Bob');
+
+Find the highest paid employee in each department
+-> select emp_id, name, department, salary from employees where (department, salary) in 
+   (select department, max(salary) from employees group by department);
+
+Get the names of managers (employees who are listed as manager_id)
+-> select name from employees where emp_id in (select distinct manager_id from employees);
+
+Find employees who don't have subordinates
+-> select name from employees where emp_id not in (select distinct manager_id from employees);
+
+Show departments where the average salary is above 70,000
+-> select department, avg_sal from 
+   (select department, avg(salary) as avg_sal from employees group by department) e 
+   where avg_sal > 70000;
+
+Get employees whose salary is more than their manager
+-> select e1.name, e1.salary from employees e1 
+   join employees e2 on e1.manager_id = e2.emp_id 
+   where e1.salary > e2.salary;

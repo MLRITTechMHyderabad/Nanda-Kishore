@@ -1,0 +1,61 @@
+select * from crime_scene_report 
+where city = 'SQL City' and type= 'murder' and date = '20180115';
+
+20180115	murder	Security footage shows that there were 2 witnesses. The first witness lives at the last house on "Northwestern Dr". The second witness, named Annabel, lives somewhere on "Franklin Ave".	SQL City
+
+
+select * from person where 
+address_street_name like '%Northwestern Dr%' order by address_number desc limit 1;
+
+14887	Morty Schapiro	118009	4919	Northwestern Dr	111564949
+
+select * from person where 
+address_street_name like '%Franklin Ave%' and name like'%Annabel%';
+              
+16371	Annabel Miller	490173	103	Franklin Ave	318771143
+
+select * from interview where 
+person_id in (16371,14887);
+
+clue 1 :
+
+16371	I saw the murder happen, and I recognized the killer from my gym when I was working out last week on January the 9th.
+
+select * from get_fit_now_check_in where check_in_date = '20180109' ;              
+membership_id	check_in_date	check_in_time	check_out_time
+X0643	20180109	957	1164
+UK1F2	20180109	344	518
+XTE42	20180109	486	1124
+1AE2H	20180109	461	944
+6LSTG	20180109	399	515
+7MWHJ	20180109	273	885
+GE5Q8	20180109	367	959
+48Z7A	20180109	1600	1730
+48Z55	20180109	1530	1700
+90081	20180109	1600	1700
+
+
+clue 2:
+
+14887	I heard a gunshot and then saw a man run out. He had a "Get Fit Now Gym" bag. The membership number on the bag started with "48Z". Only gold members have those bags. The man got into a car with a plate that included "H42W".
+
+select * from get_fit_now_member where id like '%48Z%' and membership_status = 'gold';              
+48Z7A	28819	Joe Germuska	20160305	gold
+48Z55	67318	Jeremy Bowers	20160101	gold
+
+select license_id from person where id in (28819,67318);
+173289
+423327
+
+select * from drivers_license where id in (423327,173289) and plate_number like '%H42W%' ;              
+
+423327	30	70	brown	brown	male	0H42W2	Chevrolet	Spark LS
+
+select name from person where license_id = 423327;  
+Jeremy Bowers	
+
+INSERT INTO solution VALUES (1, 'Jeremy Bowers');
+
+ SELECT value FROM solution;
+
+Congrats, you found the murderer! But wait, there's more... If you think you're up for a challenge, try querying the interview transcript of the murderer to find the real villain behind this crime. If you feel especially confident in your SQL skills, try to complete this final step with no more than 2 queries. Use this same INSERT statement with your new suspect to check your answer.
